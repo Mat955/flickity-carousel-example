@@ -1,0 +1,111 @@
+.panel-bar {
+  margin-bottom: 30px;
+}
+
+.panel-bar .menu {
+  text-align: center;
+}
+
+.panel-bar .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.panel-bar .menu ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-weight: 600;
+}
+
+.panel-bar .menu ul li a {
+  color: #2a2a2a;
+  position: relative;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.panel-bar .menu ul li a.active::before, .panel-bar .menu ul li a:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  border-bottom: 4px solid green;
+}
+
+.panel-bar .dots-main .dot-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0 0 0 1rem;
+  list-style: none;
+  background-color: #fff;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.panel-bar .dots-main .dot-all .dot {
+  display: inline-block;
+  margin-left: 12px;
+  border: none;
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-radius: 6px;
+  padding: 0;
+  outline: none;
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+
+.panel-bar .dots-main .dot-all .dot:hover {
+  background-color: green;
+}
+
+.panel-bar .dots-main .dot-all .active {
+  background-color: green;
+}
+
+.product-box {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 2rem;
+  width: 300px;
+  height: 300px;
+}
+
+.product-box .photo {
+  position: relative;
+  padding: 80% 10px 0 10px;
+  background-color: #f4f5f7;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 263px 261px;
+  background-position: center;
+}
+
+.product-box .pic-1 {
+  background-image: url("../images/chair-1.jpg");
+}
+
+.product-box .pic-2 {
+  background-image: url("../images/chair-2.jpg");
+}
+
+.product-box .pic-3 {
+  background-image: url("../images/chair-3.jpg");
+}
+
+.product-box .pic-4 {
+  background-image: url("../images/chair-4.jpg");
+}
+/*# sourceMappingURL=style.css.map */
